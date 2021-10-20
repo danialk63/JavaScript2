@@ -86,3 +86,8 @@ container2.addEventListiner(mouseover ,function(){
 container.addEventListener(mouseover,function(){
     console.log("Mouse aya");
 })
+
+
+// Local Storage
+localStorage.setItem('name', 'Ahmad')
+localStorage.getItem('name')
